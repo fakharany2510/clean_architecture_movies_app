@@ -20,7 +20,7 @@ class StartScreen extends StatelessWidget {
                 Navigator.push(context, MaterialPageRoute(builder: (context)=>const MainMoviesScreen()));
               },
               child: Container(
-                width: 150,
+                width: 159,
                 height: 50,
                 decoration: BoxDecoration(
                   color: Theme.of(context).bottomAppBarColor,
