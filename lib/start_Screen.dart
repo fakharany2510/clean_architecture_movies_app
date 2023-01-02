@@ -15,6 +15,7 @@ class StartScreen extends StatelessWidget {
           crossAxisAlignment: CrossAxisAlignment.center,
           children: [
             InkWell(
+
               onTap: (){
                 Navigator.push(context, MaterialPageRoute(builder: (context)=>const MainMoviesScreen()));
               },
